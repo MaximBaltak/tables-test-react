@@ -1,0 +1,23 @@
+@import "../../../App";
+.check{
+  display: none;
+}
+.label {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: $color-background;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+.check:checked + .label {
+  content: '&#10004';
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: $color-element;
+  border-radius: 5px;
+  box-shadow: 0 0 5px $color-element;
+  cursor: pointer;
+}

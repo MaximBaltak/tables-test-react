@@ -1,0 +1,69 @@
+$color-front: black;
+$color-front-2: white;
+$color-element: rgb(39, 16, 131);
+$color-header-table: #656565;
+$color-background: white;
+
+@mixin medium-desktop () {
+  @media screen and (max-width: 1200px) {
+    @content
+  }
+}
+@mixin tablet () {
+  @media screen and (max-width: 991px) {
+    @content
+  }
+}
+@mixin mobile () {
+  @media screen and (max-width: 586px) {
+    @content
+  }
+}
+@mixin container () {
+  display: block;
+  height: 100%;
+  width: 1080px;
+  margin: 0 auto 0;
+  @include medium-desktop {
+    width: 980px;
+  }
+  @include tablet {
+    width: 90%;
+  }
+  @include mobile {
+    width: 98%;
+  }
+
+}
+.container{
+  @include container
+}
+.grid{
+  margin-top: 60px;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-areas: "company staff";
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  @include tablet{
+    grid-template-areas: "company"
+                          "staff";
+    grid-template-columns: 1fr;
+  }
+  .company{
+    grid-area: company;
+    @include tablet{
+      margin: 0 auto 0;
+      width: 100%;
+    }
+  }
+  .staff{
+    grid-area: staff;
+    @include tablet{
+      margin: 0 auto 0;
+      width: 100%;
+    }
+  }
+}
+

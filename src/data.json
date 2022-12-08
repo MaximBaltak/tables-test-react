@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1 ,
+    "title": "Ростелеком",
+    "address": "г.Москва, ул.Озёрная, д.32",
+    "staff": [
+      {
+        "id": 9292,
+        "firstName": "Александр",
+        "lastName": "Трофимов",
+        "position": "Администратор",
+        "id_company": 1
+      },
+      {
+        "id": 9222,
+        "firstName": "Максим",
+        "lastName": "Иванов",
+        "position": "HR",
+        "id_company": 1
+      },
+      {
+        "id": 9122,
+        "firstName": "Ольга",
+        "lastName": "Натальевна",
+        "position": "Руководитель IT-отдела",
+        "id_company": 1
+      }
+    ]
+  },
+  {
+    "id": 2 ,
+    "title": "ИП Виктор Фомин Алексеевич",
+    "address": "г.Владивосток, ул.Красная, д.98, корпус 2",
+    "staff": [
+      {
+        "id": 13,
+        "firstName": "Дмитрий",
+        "lastName": "Иванов",
+        "position": "Управляющий",
+        "id_company": 2
+      },
+      {
+        "id": 13122,
+        "firstName": "Виктор",
+        "lastName": "Фомин",
+        "position": "Руководитель",
+        "id_company": 2
+      }
+    ]
+  }
+]

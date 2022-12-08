@@ -1,0 +1,16 @@
+@import "./../../../App";
+.content{
+  padding: 10px;
+  font-size: 14px;
+  color: $color-front;
+  border-bottom: solid 1px $color-header-table;
+}
+.input{
+  display: block;
+  outline: none;
+  width: 90%;
+  height: 90%;
+  border: none;
+  border-bottom: solid 1px $color-header-table;
+
+}

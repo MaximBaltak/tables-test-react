@@ -1,0 +1,34 @@
+@import "./../../../App";
+.container{
+ width: 100%
+}
+.text{
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: $color-front
+}
+.buttons{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.table{
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  border-spacing: 0;
+  border-collapse: collapse;
+  .header{
+    height: 40px;
+    color: $color-front-2;
+    background: $color-header-table ;
+  }
+  .row:hover{
+    transition: all .2s;
+    background: #36abff69;
+  }
+}
+

@@ -1,0 +1,32 @@
+@import "./../../../App";
+.content{
+  padding: 10px;
+  font-size: 14px;
+  color: $color-front;
+  border-bottom: solid 1px $color-header-table;
+}
+.input{
+  display: block;
+  outline: none;
+  width: 90%;
+  height: 90%;
+  border: none;
+  border-bottom: solid 1px $color-header-table;
+
+}
+  .save{
+    position: absolute;
+    outline: none;
+    background: none;
+    border: none;
+    display: block;
+    font-weight: 600;
+    color: rgba(24, 70, 252, 0.75);
+    font-size: 14px;
+    transition: all .2s;
+    cursor: pointer;
+    &:hover{
+      transform: scale(1.1);
+    }
+  }
+
